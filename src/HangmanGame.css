@@ -1,0 +1,65 @@
+.HangmanGame {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Whitney", sans-serif;
+  background-color: #f2f3f5;
+  color: #2c2f33;
+  margin: 0;
+  padding: 0;
+}
+
+.HangmanGame {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  text-align: center;
+  padding: 2em;
+}
+
+svg {
+  margin-bottom: 2em;
+}
+
+button {
+  font-family: "Whitney", sans-serif;
+  color: #ffffff;
+  background-color: #7289da;
+  border: none;
+  padding: 1em;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-top: 1em;
+}
+
+button:hover {
+  background-color: #677bc4;
+}
+
+input {
+  font-family: "Whitney", sans-serif;
+  padding: 1em;
+  border: none;
+  border-radius: 3px;
+  margin-top: 1em;
+}
+
+.title {
+  color: #23272a;
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: 1em;
+}
