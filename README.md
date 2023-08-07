@@ -1,1 +1,2 @@
 # hangman-online
+A classic game of hangman, where you are given a random word chosen out of a word bank every time you play. You have 10 attempts to guess the word and every time you waste an attempt the hangman drawing starts completing itself step by step. Once the 10 attempts are over, the hangman drawing is complete and you get game over. The app displays the letters you attempted and warns you when you enter a duplicate letter.
